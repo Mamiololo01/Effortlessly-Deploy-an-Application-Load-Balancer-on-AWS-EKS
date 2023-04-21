@@ -154,10 +154,12 @@ Install a basic app using Application Load Balancer.
 Using the ingress, we will define a define deployment to use the newly created load balancer controller to provision ALB for our app.
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.4.7/docs/examples/2048/2048_full.yaml
+
+<img width="886" alt="Screenshot 2023-04-21 at 22 51 47" src="https://user-images.githubusercontent.com/67044030/233744635-eb474935-a53b-445f-9e9d-760ef0506748.png">
+
 Open your App. By copying the URL and pasting it into your browser.
 
 
-What it should look like:
 
 
 Please remember to delete cluster
