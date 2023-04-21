@@ -146,6 +146,8 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 This what it should look like :
 
+<img width="884" alt="Screenshot 2023-04-21 at 22 51 09" src="https://user-images.githubusercontent.com/67044030/233744581-f615c67b-09a0-428b-a7eb-33a492a37d4f.png">
+
 
 Install a basic app using Application Load Balancer.
 
