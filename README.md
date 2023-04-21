@@ -34,6 +34,8 @@ Kubectl CLI
 
 Helm CLI
 
+<img width="889" alt="Screenshot 2023-04-21 at 22 14 49" src="https://user-images.githubusercontent.com/67044030/233743104-17c0b780-c9df-4927-ace3-3da032daa5cc.png">
+
 AWS CLI
 
 Sufficient Admin Permissions for the AWS account
