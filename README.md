@@ -122,6 +122,8 @@ Add the eks-charts repository
 
 helm repo add eks https://aws.github.io/eks-charts
 
+<img width="889" alt="Screenshot 2023-04-21 at 22 49 30" src="https://user-images.githubusercontent.com/67044030/233744399-9610f732-ed6a-480f-9fe3-58f60f0ce086.png">
+
 Update the repo
 
 helm repo update
