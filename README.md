@@ -137,6 +137,8 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
   --set serviceAccount.create=false \
   --set serviceAccount.name=aws-load-balancer-controller 
   
+  <img width="884" alt="Screenshot 2023-04-21 at 22 50 33" src="https://user-images.githubusercontent.com/67044030/233744481-22361841-d659-47a1-bcf5-4b6d147c5b0c.png">
+  
   
 To check the installation, view the deployment
 
