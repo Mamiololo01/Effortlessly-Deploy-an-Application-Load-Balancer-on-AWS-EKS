@@ -84,9 +84,7 @@ aws iam create-policy \
     --policy-document file://iam_policy.json
     
     
-    <img width="875" alt="Screenshot 2023-04-21 at 22 36 25" src="https://user-images.githubusercontent.com/67044030/233743864-fbfde490-f7fe-46fc-98d5-c066605c2594.png">
-    
-    <img width="875" alt="Screenshot 2023-04-21 at 22 36 25" src="https://user-images.githubusercontent.com/67044030/233743984-bc677a06-9a74-455f-b884-020f705c1241.png">
+<img width="875" alt="Screenshot 2023-04-21 at 22 36 25" src="https://user-images.githubusercontent.com/67044030/233744198-a933c7e8-b50a-4266-994e-78ec02a16330.png">
     
 We also need an IAM OIDC because it provides a solution by allowing the EKS clusters to use OIDC for authentication and authorization of Kubernetes resources.
 
