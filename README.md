@@ -47,7 +47,7 @@ Enter the following command below:
 
 eksctl create cluster --name Dev --region us-east-1
 
-You can change the name “demo” and region “us-east-1” to your own preferences.
+You can change the name “Dev” and region “us-east-1” to your own preferences.
 
 Within that one command you shall create an entire cluster. This can take up to 10 minutes.
 
@@ -59,7 +59,10 @@ Within that one command you shall create an entire cluster. This can take up to 
 
 Once the cluster has created use this command below to update your ./kubeconfig
 
-aws eks update-kubeconfig --region us-east-1 --name demo
+<img width="886" alt="Screenshot 2023-04-21 at 22 34 26" src="https://user-images.githubusercontent.com/67044030/233743501-2943019a-45cc-47c7-9ad2-775d969dc75b.png">
+
+aws eks update-kubeconfig --region us-east-1 --name Dev
+
 You should be able to now access your cluster. Try the following below to see your worker nodes.
 
 kubectl get nodes
@@ -91,7 +94,7 @@ Now we will take our IAM policy and create an IAM role. Using this role attach a
 Replace my-cluster & 111122223333 with your information. check using “kubectl config view”
 
 eksctl create iamserviceaccount \
-  --cluster=my-cluster \
+  --cluster=Dev \
   --namespace=kube-system \
   --name=aws-load-balancer-controller \
   --role-name AmazonEKSLoadBalancerControllerRole \
