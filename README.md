@@ -159,7 +159,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-bala
 
 Open your App. By copying the URL and pasting it into your browser.
 
-
+<img width="1212" alt="Screenshot 2023-04-21 at 22 54 37" src="https://user-images.githubusercontent.com/67044030/233744700-9e6aa169-c1e9-4e75-8985-7176b4f68e81.png">
 
 
 Please remember to delete cluster
