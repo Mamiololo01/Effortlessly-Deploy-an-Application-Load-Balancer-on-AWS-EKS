@@ -30,6 +30,8 @@ Eksctl CLI
 
 Kubectl CLI
 
+<img width="856" alt="Screenshot 2023-04-21 at 22 12 22" src="https://user-images.githubusercontent.com/67044030/233743027-07e29497-b408-4700-8c7d-55a06689615b.png">
+
 Helm CLI
 
 AWS CLI
