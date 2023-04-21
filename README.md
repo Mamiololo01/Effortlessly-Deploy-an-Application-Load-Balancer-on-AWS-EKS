@@ -98,6 +98,9 @@ eksctl utils associate-iam-oidc-provider \
     --cluster demo \
     --approve
     
+    
+ <img width="884" alt="Screenshot 2023-04-21 at 22 37 37" src="https://user-images.githubusercontent.com/67044030/233744084-176d4ef7-5f1a-4c95-aef1-5e9c3a31173d.png">
+    
 Now we will take our IAM policy and create an IAM role. Using this role attach a service account name for the load balancer controller.
 
 Replace my-cluster & 111122223333 with your information. check using “kubectl config view”
