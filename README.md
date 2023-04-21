@@ -111,6 +111,8 @@ eksctl create iamserviceaccount \
   --attach-policy-arn=arn:aws:iam::111122223333:policy/AWSLoadBalancerControllerIAMPolicy \
   --approve
   
+ <img width="884" alt="Screenshot 2023-04-21 at 22 48 24" src="https://user-images.githubusercontent.com/67044030/233744308-67772d27-1b6d-4864-babb-6cf5937cef2f.png">
+  
   
 Now we can install the AWS Load Balancer controller using HELM
 
