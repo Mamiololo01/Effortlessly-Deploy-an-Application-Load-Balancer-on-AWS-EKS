@@ -26,6 +26,8 @@ Requirements:
 
 Eksctl CLI
 
+<img width="876" alt="Screenshot 2023-04-21 at 22 09 52" src="https://user-images.githubusercontent.com/67044030/233742829-3c2398e1-2627-442d-a758-a35c8ed9057d.png">
+
 Kubectl CLI
 
 Helm CLI
