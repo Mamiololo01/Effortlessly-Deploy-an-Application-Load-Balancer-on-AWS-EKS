@@ -165,3 +165,10 @@ Open your App. By copying the URL and pasting it into your browser.
 Please remember to delete cluster
 
  eksctl delete cluster --region=us-east-1 --name=Dev
+ 
+ <img width="867" alt="Screenshot 2023-04-21 at 22 55 53" src="https://user-images.githubusercontent.com/67044030/233744761-ac95f8db-fd57-4a77-bd07-b363b0a2a2b9.png">
+ 
+<img width="878" alt="Screenshot 2023-04-21 at 23 09 38" src="https://user-images.githubusercontent.com/67044030/233744781-9ea5b6a7-7065-4988-bb43-30e42202861b.png">
+
+<img width="869" alt="Screenshot 2023-04-21 at 23 09 49" src="https://user-images.githubusercontent.com/67044030/233744811-4af5d84c-5279-461e-81f0-dc47f5f336f5.png">
+
