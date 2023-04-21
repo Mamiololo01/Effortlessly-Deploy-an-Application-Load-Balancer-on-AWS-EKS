@@ -1,6 +1,7 @@
 # Effortlessly-Deploy-an-Application-Load-Balancer-on-AWS-EKS
 Effortlessly Deploy an Application Load Balancer on AWS EKS using HELM.
 
+![AWS_EKS_LB](https://user-images.githubusercontent.com/67044030/233744963-1836b113-bef8-4fea-936f-14bc5a92fe67.jpeg)
 
 If you’re looking to expose a Kubernetes deployment using a Kubernetes service and an Elastic Load Balancer (ELB), you may find yourself limited by the classic load balancer’s outdated technology. Fortunately, AWS provides a newer Application Load Balancer (ALB) with advanced features and performance benefits
 
