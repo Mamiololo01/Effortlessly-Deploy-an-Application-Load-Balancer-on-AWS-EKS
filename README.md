@@ -67,6 +67,8 @@ You should be able to now access your cluster. Try the following below to see yo
 
 kubectl get nodes
 
+<img width="828" alt="Screenshot 2023-04-21 at 22 34 58" src="https://user-images.githubusercontent.com/67044030/233743639-6aea7e1f-8037-4169-aae7-f84f4a07e192.png">
+
 Now that the cluster is active, we need to setup the IAM Policies for the Load Balancer Controller.
 
 Download an IAM policy for the AWS Load Balancer Controller that allows it to make calls to AWS APIs on your behalf.
