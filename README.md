@@ -45,11 +45,17 @@ The AWS Load Balancer Controller allows you to use an ALB or NLB with your Kuber
 
 Enter the following command below:
 
-eksctl create cluster --name demo --region us-east-1
+eksctl create cluster --name Dev --region us-east-1
 
 You can change the name “demo” and region “us-east-1” to your own preferences.
 
 Within that one command you shall create an entire cluster. This can take up to 10 minutes.
+
+<img width="865" alt="Screenshot 2023-04-21 at 22 16 51" src="https://user-images.githubusercontent.com/67044030/233743338-940854f3-e214-4c70-993a-08a3915b62e7.png">
+
+<img width="887" alt="Screenshot 2023-04-21 at 22 29 18" src="https://user-images.githubusercontent.com/67044030/233743373-94dc9243-db50-4541-866f-22dc79ed1713.png">
+
+<img width="888" alt="Screenshot 2023-04-21 at 22 33 43" src="https://user-images.githubusercontent.com/67044030/233743379-501157c9-c1dc-4cc9-acd6-36a443a58a58.png">
 
 Once the cluster has created use this command below to update your ./kubeconfig
 
