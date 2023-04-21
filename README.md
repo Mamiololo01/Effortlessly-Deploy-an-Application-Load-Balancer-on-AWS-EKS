@@ -75,6 +75,8 @@ Download an IAM policy for the AWS Load Balancer Controller that allows it to ma
 
 curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.4.7/docs/install/iam_policy.json
 
+<img width="881" alt="Screenshot 2023-04-21 at 22 35 38" src="https://user-images.githubusercontent.com/67044030/233743781-b257fde9-1093-4155-93c4-eb761747c72c.png">
+
 Create the IAM policy
 
 aws iam create-policy \
